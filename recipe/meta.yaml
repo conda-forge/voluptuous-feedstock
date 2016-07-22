@@ -1,5 +1,5 @@
-{% set version = "0.8.11" %}
-{% set sha256 = "8613dc83e233699eeff8ca6fa5060c788694a429d0fd80eb790e4c3682d3e496" %}
+{% set version = "0.9.1" %}
+{% set sha256 = "3c0eb279b6bd922ad83e421a4e224ea14b0cd4e1aca70b1b4245319bab0f27ce" %}
 
 package:
   name: voluptuous
@@ -7,7 +7,7 @@ package:
 
 source:
   fn: voluptuous-{{ version }}.tar.gz
-  url: https://github.com/alecthomas/voluptuous/archive/{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/v/voluptuous/voluptuous-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -18,6 +18,7 @@ requirements:
   build:
     - python
     - setuptools
+    - flake8
 
   run:
     - python
