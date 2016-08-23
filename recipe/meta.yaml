@@ -1,13 +1,14 @@
-{% set version = "0.9.1" %}
-{% set sha256 = "3c0eb279b6bd922ad83e421a4e224ea14b0cd4e1aca70b1b4245319bab0f27ce" %}
+{% set name = "voluptuous" %}
+{% set version = "0.9.3" %}
+{% set sha256 = "ed5a11fda273754caabb6becd5fe172ee2621cd2c8ff8279433173bb7b0ec568" %}
 
 package:
-  name: voluptuous
+  name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: voluptuous-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/v/voluptuous/voluptuous-{{ version }}.tar.gz
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
