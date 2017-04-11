@@ -11,6 +11,18 @@ Summary: Voluptuous is a Python data validation library
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/voluptuous-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/voluptuous-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/voluptuous-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/voluptuous-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/voluptuous-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/voluptuous-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/voluptuous/badges/version.svg)](https://anaconda.org/conda-forge/voluptuous)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/voluptuous/badges/downloads.svg)](https://anaconda.org/conda-forge/voluptuous)
+
 Installing voluptuous
 =====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `voluptuous` available on your pla
 ```
 conda search voluptuous --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/voluptuous-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/voluptuous-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/voluptuous-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/voluptuous-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/voluptuous-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/voluptuous-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/voluptuous/badges/version.svg)](https://anaconda.org/conda-forge/voluptuous)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/voluptuous/badges/downloads.svg)](https://anaconda.org/conda-forge/voluptuous)
 
 
 Updating voluptuous-feedstock
