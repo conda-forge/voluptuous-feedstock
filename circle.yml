@@ -1,6 +1,14 @@
+general:
+  branches:
+    ignore:
+      # We only want to build pull requests for testing. If something is merged,
+      # then we are prepping for release and there is no need to build it again.
+      - master
+
 checkout:
   post:
-    - ./ci_support/checkout_merge_commit.sh
+    - ./scripts/fast_finish_ci_pr_build.sh
+    - ./scripts/checkout_merge_commit.sh
 
 machine:
   services:
@@ -14,5 +22,4 @@ dependencies:
 
 test:
   override:
-    # Run, test and (if we have a BINSTAR_TOKEN) upload the distributions.
-    - ./ci_support/run_docker_build.sh
+    - ./scripts/run_docker_build.sh
