@@ -14,14 +14,15 @@ Summary: Voluptuous is a Python data validation library
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/voluptuous-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/voluptuous-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/voluptuous-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/voluptuous-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/voluptuous-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/voluptuous-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/voluptuous-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/voluptuous-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/voluptuous/badges/version.svg)](https://anaconda.org/conda-forge/voluptuous)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/voluptuous/badges/downloads.svg)](https://anaconda.org/conda-forge/voluptuous)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-voluptuous-green.svg)](https://anaconda.org/conda-forge/voluptuous) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/voluptuous.svg)](https://anaconda.org/conda-forge/voluptuous) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/voluptuous.svg)](https://anaconda.org/conda-forge/voluptuous) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/voluptuous.svg)](https://anaconda.org/conda-forge/voluptuous) |
 
 Installing voluptuous
 =====================
