@@ -33,6 +33,7 @@ test:
 about:
   home: https://github.com/alecthomas/voluptuous
   license: BSD3
+  license_file: COPYING
   summary: Voluptuous is a Python data validation library
 
 extra:
