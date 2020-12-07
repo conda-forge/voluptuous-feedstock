@@ -1,6 +1,6 @@
 {% set name = "voluptuous" %}
-{% set version = "0.12.0" %}
-{% set sha256 = "3a4ef294e16f6950c79de4cba88f31092a107e6e3aaa29950b43e2bb9e1bb2dc" %}
+{% set version = "0.12.1" %}
+{% set sha256 = "663572419281ddfaf4b4197fd4942d181630120fb39b333e3adad70aeb56444b" %}
 
 package:
   name: {{ name }}
