@@ -24,7 +24,7 @@ requirements:
     - flake8
 
   run:
-    - python >=3.6,<3,9
+    - python >=3.6,<3.9
 
 test:
   imports:
