@@ -13,18 +13,18 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
     - flake8
 
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -40,3 +40,4 @@ extra:
   recipe-maintainers:
     - tusharmakkar08
     - vamega
+    - jan-janssen
