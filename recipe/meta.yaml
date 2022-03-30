@@ -1,6 +1,6 @@
 {% set name = "voluptuous" %}
-{% set version = "0.12.2" %}
-{% set sha256 = "4db1ac5079db9249820d49c891cb4660a6f8cae350491210abce741fabf56513" %}
+{% set version = "0.13.0" %}
+{% set sha256 = "cae6a4526b434b642816b34a00e1186d5a5f5e0c948ab94d2a918e01e5874066" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
