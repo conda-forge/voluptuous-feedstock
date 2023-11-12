@@ -1,11 +1,11 @@
-About voluptuous
-================
+About voluptuous-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/voluptuous-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/alecthomas/voluptuous
 
 Package license: BSD3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/voluptuous-feedstock/blob/main/LICENSE.txt)
 
 Summary: Voluptuous is a Python data validation library
 
