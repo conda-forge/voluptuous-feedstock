@@ -1,5 +1,5 @@
 {% set name = "voluptuous" %}
-{% set version = "0.15.2" %}
+{% set version = "0.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/voluptuous-{{ version }}.tar.gz
-  sha256: 6ffcab32c4d3230b4d2af3a577c87e1908a714a11f6f95570456b1849b0279aa
+  sha256: 006535e22fed944aec17bef6e8725472476194743c87bd233e912eb463f8ff05
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 2
+  number: 0
 
 requirements:
   host:
